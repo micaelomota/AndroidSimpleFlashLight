@@ -48,9 +48,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 desligar.setText(R.string.desligar);
                 desligar.setBackgroundResource(R.color.filtro);
+                desligar.setEnabled(true);
 
                 ligar.setText("");
                 ligar.setBackgroundResource(R.color.black);
+                ligar.setEnabled(false);
 
                 toggleFlashLight(isOn = true);
             }
@@ -61,9 +63,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 ligar.setText(R.string.ligar);
                 ligar.setBackgroundResource(R.color.filtro);
+                ligar.setEnabled(true);
 
                 desligar.setText("");
                 desligar.setBackgroundResource(R.color.black);
+                desligar.setEnabled(false);
 
                 toggleFlashLight(isOn=false);
             }
