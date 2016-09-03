@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Luz para Thais</string>
+    <string name="desligar">Desligar</string>
+    <string name="ligar">Ligar</string>
+</resources>
